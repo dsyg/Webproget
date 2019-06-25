@@ -177,6 +177,9 @@
       <DependentUpon>201906230145536_Update201911121451.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\Seeds\ActionLinkCreator.cs" />
+    <Compile Include="Migrations\Seeds\SideBarCreator.cs" />
+    <Compile Include="Migrations\Seeds\UserCreator.cs" />
     <Compile Include="Models\Classes.cs">
       <SubType>Code</SubType>
     </Compile>

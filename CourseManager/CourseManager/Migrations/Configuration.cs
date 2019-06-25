@@ -25,7 +25,9 @@ namespace CourseManager.Migrations
             //      new Person { FullName = "Brice Lambson" },
             //      new Person { FullName = "Rowan Miller" }
             //    );
-            //
+            new ActionLinkCreator(context).Seed();
+            new SideBarCreator(context).Seed();
+            new UserCreator(context).Seed();
         }
     }
 }
